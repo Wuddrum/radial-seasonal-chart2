@@ -1,0 +1,57 @@
+body {
+    background-color: #353b48;
+    font-family: Arial, sans-serif;
+}
+
+div.circos-tooltip {
+    font-family: Arial, sans-serif;
+    padding: 16px 8px !important;
+}
+
+div.circos-tooltip h5 {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 12px 0;
+}
+
+div.circos-tooltip h6 {
+    font-size: 11px;
+    font-weight: normal;
+    text-align: left;
+    margin: 0;
+}
+
+path.tile:hover {
+    opacity: 0.7;
+}
+
+#lineContainer path.tile {
+    opacity: 0;
+}
+
+#lineContainer path.tile:hover {
+    opacity: 0.2;
+}
+
+.point {
+    fill: #ffffff;
+}
+
+.tooltip .line {
+    opacity: 0;
+}
+
+.tooltip .line:hover {
+    opacity: 0.3;
+}
+
+.tooltip,
+.yearButton > .mouseCapturer {
+    cursor: pointer;
+}
+
+.yearButton > text,
+.cs-layout text {
+    user-select: none;
+}
